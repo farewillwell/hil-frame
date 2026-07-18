@@ -1,0 +1,7 @@
+policy_backend: zero
+checkpoint: null
+action_dim: 7
+action_horizon: 1
+algorithm: sft
+batch_size: 32
+learning_rate: 0.0003

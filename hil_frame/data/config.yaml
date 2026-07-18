@@ -1,0 +1,8 @@
+local_root: local_data
+remote_root: remote_data
+upload_enabled: false
+upload_timeout_ms: 500
+upload_retry_interval_s: 1.0
+serialization: pickle_gzip_protocol5
+checksum: sha256
+metadata_database: metadata.sqlite3

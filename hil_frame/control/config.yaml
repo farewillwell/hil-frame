@@ -1,0 +1,14 @@
+human_backend: manual
+policy_backend: zero
+action_horizon: 1
+policy_timeout_ms: 100
+chunk_freshness_obs: 2
+safety_fallback: zero
+action_deadzone: 0.0
+translation_scale: 1.0
+rotation_scale: 1.0
+gripper_scale: 1.0
+enter_key: Enter
+exit_key: Backspace
+stop_reset_key: F12
+quit_key: Esc

@@ -1,0 +1,13 @@
+project:
+  name: hil-frame
+  run_id: dummy_zero_seed0
+  seed: 0
+runtime:
+  role: local
+  client_id: local-client-01
+network:
+  policy_endpoint: tcp://127.0.0.1:8001
+  trajectory_endpoint: tcp://127.0.0.1:8002
+logging:
+  level: INFO
+  log_dir: ./logs

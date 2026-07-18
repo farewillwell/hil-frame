@@ -1,0 +1,13 @@
+backend: dummy
+max_steps: 5
+libero:
+  suite: libero_goal
+  task_id: 0
+  init_state_id: 0
+  seed: 0
+  camera: agentview
+  width: 512
+  height: 512
+  control_hz: 20
+  max_steps: 600
+  render_enabled: true
